@@ -3,12 +3,7 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-<<<<<<< HEAD
-  background: 
-    url('/assets/img/fondo.png') no-repeat center center / cover;
-=======
   background: url('/assets/img/fondo.png') no-repeat center center / cover;
->>>>>>> Primer commit desde VS Code
   overflow: hidden;
   position: relative;
   font-family: 'Segoe UI', sans-serif;
@@ -26,10 +21,7 @@
   background: rgba(255, 255, 255, 0.12);
   border-radius: 20px;
   backdrop-filter: blur(25px);
-<<<<<<< HEAD
-=======
   -webkit-backdrop-filter: blur(25px);
->>>>>>> Primer commit desde VS Code
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
   padding: 1.2rem 2rem; /* reduce vertical padding */
   color: white;
@@ -169,8 +161,6 @@ form {
     }
   }
 }
-<<<<<<< HEAD
-=======
 
 @media (max-width: 400px) {
   .tarjeta {
@@ -195,4 +185,3 @@ form {
     font-size: 1rem;
   }
 }
->>>>>>> Primer commit desde VS Code

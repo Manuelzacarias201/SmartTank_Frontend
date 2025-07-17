@@ -240,17 +240,6 @@ body {
       margin-top: 1rem;
       display: flex;
       gap: 1rem;
-<<<<<<< HEAD
-      font-size: 1.5rem;
-
-      i {
-        color: $negro;
-        cursor: pointer;
-
-        &:hover {
-          color: $azul;
-        }
-=======
       align-items: center;
       justify-content: flex-start;
       a img {
@@ -262,7 +251,6 @@ body {
       a:hover img {
         transform: scale(1.15);
         filter: none;
->>>>>>> Primer commit desde VS Code
       }
     }
   }
@@ -296,8 +284,6 @@ body {
     align-items: center;
   }
 }
-<<<<<<< HEAD
-=======
 
 @media (max-width: 430px) {
   .encabezado {
@@ -348,4 +334,3 @@ body {
     min-width: 120px;
   }
 }
->>>>>>> Primer commit desde VS Code
