@@ -240,6 +240,7 @@ body {
       margin-top: 1rem;
       display: flex;
       gap: 1rem;
+<<<<<<< HEAD
       font-size: 1.5rem;
 
       i {
@@ -249,6 +250,19 @@ body {
         &:hover {
           color: $azul;
         }
+=======
+      align-items: center;
+      justify-content: flex-start;
+      a img {
+        width: 28px;
+        height: 28px;
+        transition: transform 0.2s, filter 0.2s;
+        filter: grayscale(0.2) brightness(0.95);
+      }
+      a:hover img {
+        transform: scale(1.15);
+        filter: none;
+>>>>>>> Primer commit desde VS Code
       }
     }
   }
@@ -282,3 +296,56 @@ body {
     align-items: center;
   }
 }
+<<<<<<< HEAD
+=======
+
+@media (max-width: 430px) {
+  .encabezado {
+    padding: 0.5rem 0.5rem;
+    .logo {
+      height: 28px;
+    }
+    .navegacion {
+      gap: 0.3rem;
+      font-size: 0.9rem;
+    }
+  }
+  .hero .overlay h1 {
+    font-size: 1.1rem;
+    margin-left: 10px;
+  }
+  .imagen-central img {
+    width: 98%;
+    min-width: 180px;
+  }
+  .viaje {
+    padding: 30px 5px;
+    h2 { font-size: 1.1rem; }
+    p { font-size: 0.95rem; }
+  }
+  .equipo {
+    padding: 30px 5px;
+    h2 { font-size: 1.1rem; }
+    .grid-equipo {
+      gap: 10px;
+    }
+  }
+  .pie {
+    padding: 20px 5px;
+    .columna {
+      max-width: 100%;
+      .logo-footer { width: 60px; }
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  .hero .overlay h1 {
+    font-size: 0.95rem;
+    margin-left: 2px;
+  }
+  .imagen-central img {
+    min-width: 120px;
+  }
+}
+>>>>>>> Primer commit desde VS Code
