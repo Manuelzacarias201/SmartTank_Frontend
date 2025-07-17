@@ -240,6 +240,7 @@ body {
       margin-top: 1rem;
       display: flex;
       gap: 1rem;
+<<<<<<< HEAD
       align-items: center;
       justify-content: flex-start;
       a img {
@@ -251,6 +252,17 @@ body {
       a:hover img {
         transform: scale(1.15);
         filter: none;
+=======
+      font-size: 1.5rem;
+      
+      a, i {
+        color: $negro;
+        cursor: pointer;
+        transition: color 0.2s;
+        &:hover {
+          color: $azul;
+        }
+>>>>>>> Finish
       }
     }
   }
